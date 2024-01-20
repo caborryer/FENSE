@@ -17,7 +17,7 @@ export default {
   <MDBFooter bg="dark" :text="['center', 'white']">
     <!-- Grid container -->
     <MDBContainer class="p-4 pb-0">
-    <h2 style="color:white">Síguenos</h2>
+    <h3 class="text-center text-h4 font-weight-bold my 5" style="color:white">Síguenos</h3>
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->

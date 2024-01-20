@@ -1,6 +1,6 @@
 <template>
   <section className="providers">
-        <h2>NUESTRAS MARCAS ALIADAS:</h2>
+        <h3 class="text-center text-h4 font-weight-bold my 5">NUESTRAS MARCAS ALIADAS:</h3>
         <div className="slider">
 	<div className="slide-track">
 		<div className="slide">

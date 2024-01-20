@@ -39,7 +39,7 @@
 <template>
   <form class="form-container">
   <div class="form-tittle">
-  <h2 id="scroll">CONTÁCTANOS</h2>
+  <h2 class="text-center text-h4 font-weight-bold my 5" id="scroll">CONTÁCTANOS</h2>
   </div>
   <br>
     <!-- 2 column grid layout with text inputs for the first and last names -->

@@ -6,6 +6,9 @@
   import Valores from '../components/Valores.vue'
   import Contactenos from '../components/Contactenos.vue'
   import Carousel from '../components/Carousel.vue'
+  import { productos } from '../data/productos'
+
+  console.log(productos)
 
 
  
@@ -15,10 +18,18 @@
   <Header/>
   <Carousel/>
     <main class="container-xl mt-5">
-        <h2 class="text-center">NUESTROS PRODUCTOS</h2>
+        <h3 class="text-center text-h4 font-weight-bold my 5">NUESTROS PRODUCTOS</h3>
         
         <div class="row mt-5">
-            <Productos/>
+        <v-card flat class="py-10">
+            <v-row>
+            <Productos
+                v-for="producto in productos"
+                :key="producto.id"
+                :producto="producto"
+            />
+        </v-row>
+        </v-card>
             <Valores/>
             <Slider/>
             <Contactenos/>
