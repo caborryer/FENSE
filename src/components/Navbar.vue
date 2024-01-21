@@ -69,7 +69,7 @@
             >PRODUCTOS</MDBDropdownToggle
           >
           <MDBDropdownMenu>
-            <MDBDropdownItem href="#">Correas</MDBDropdownItem>
+            <MDBDropdownItem router to="correas">Correas</MDBDropdownItem>
             <MDBDropdownItem href="#">Acoples industriales</MDBDropdownItem>
             <MDBDropdownItem href="#">Chumaceras</MDBDropdownItem>
             <MDBDropdownItem href="#">Poleas</MDBDropdownItem>

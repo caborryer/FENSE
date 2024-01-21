@@ -27,6 +27,7 @@
                     block
                     color="info"
                     variant="flat"
+                    router :to="`${producto.pagina}`"
                 >
                     Ver Información
                 </v-btn>
