@@ -18,7 +18,7 @@ export const productos = [
         nombre: 'Chumaceras',
         imagen: 'chumaceras',
         descripcion: 'Desempeñan un papel crucial en la eficiencia y confiabilidad de los sistemas mecánicos al proporcionar un soporte estable y una alineación precisa para ejes rotativos',
-        pagina: 'correas'
+        pagina: 'chumaceras'
     },
     {
         id: 4,

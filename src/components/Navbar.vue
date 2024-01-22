@@ -71,7 +71,7 @@
           <MDBDropdownMenu>
             <MDBDropdownItem router to="correas">Correas</MDBDropdownItem>
             <MDBDropdownItem router to="acoples">Acoples industriales</MDBDropdownItem>
-            <MDBDropdownItem href="#">Chumaceras</MDBDropdownItem>
+            <MDBDropdownItem router to="chumaceras">Chumaceras</MDBDropdownItem>
             <MDBDropdownItem router to="poleas">Poleas</MDBDropdownItem>
             <MDBDropdownItem href="#">Motorreductores</MDBDropdownItem>
             <MDBDropdownItem href="#">Bandas transportadoras</MDBDropdownItem>
