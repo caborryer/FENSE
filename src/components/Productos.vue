@@ -11,7 +11,7 @@
         cols="12"
         md="4"
     >
-        <v-card>
+        <v-card class="hover-card">
             <v-img :src="'/img/' + producto.imagen + '.png'"  height="250" cover  />
 
             <v-card-title>
@@ -35,3 +35,12 @@
         </v-card>
     </v-col>
 </template>
+
+<style scoped>
+.hover-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+</style>

@@ -20,7 +20,7 @@
 <div class="container-nos">
 <div class="first-slide">
 <div class="nosotros-text">
-<p class="text">POLEAS</p>
+<p class="text">Retenedores</p>
 </div>
 <div class="breadcrump">
            <nav aria-label="breadcrumb" class="d-flex">
@@ -28,8 +28,8 @@
         <MDBBreadcrumbItem router to="home">
           <a class="text-reset" href="">Home</a>
         </MDBBreadcrumbItem>
-        <MDBBreadcrumbItem router to="correas" active>
-          <a class="text-reset" href=""><u>Poleas</u></a>
+        <MDBBreadcrumbItem router to="retenedores" active>
+          <a class="text-reset" href=""><u>Retenedores</u></a>
         </MDBBreadcrumbItem>
       </MDBBreadcrumb>
     </nav>

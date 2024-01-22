@@ -20,7 +20,7 @@
 <div class="container-nos">
 <div class="first-slide">
 <div class="nosotros-text">
-<p>ACOPLES INDUSTRIALES</p>
+<p class="text">ACOPLES INDUSTRIALES</p>
 </div>
 <div class="breadcrump">
            <nav aria-label="breadcrumb" class="d-flex">
@@ -51,6 +51,12 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .nosotros-text{

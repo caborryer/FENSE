@@ -7,6 +7,8 @@ import PoleasView from '../views/PoleasView.vue'
 import AcoplesIndustrialesView from '../views/AcoplesIndustrialesView.vue'
 import ChumacerasView from '../views/ChumacerasView.vue'
 import MotorreductoresView from '../views/MotorreductoresView.vue'
+import RetenedoresView from '../views/RetenedoresView.vue'
+import BandasTransportadorasView from '../views/BandasTransportadorasView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +52,17 @@ const router = createRouter({
       path: '/motorreductores',
       name: 'motorreductores',
       component: MotorreductoresView
+    },
+    {
+      path: '/retenedores',
+      name: 'retenedores',
+      component: RetenedoresView
+    }
+    ,
+    {
+      path: '/bandas-transportadoras',
+      name: 'bandas-transportadoras',
+      component: BandasTransportadorasView
     }
   ]
 })

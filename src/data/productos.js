@@ -32,7 +32,7 @@ export const productos = [
         nombre: 'Retenedores',
         imagen: 'retenedor',
         descripcion: 'Componentes esenciales que desempeñan un papel fundamental en la estabilidad y funcionamiento seguro de sistemas mecánicos.',
-        pagina: 'correas'
+        pagina: 'retenedores'
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ export const productos = [
         nombre: 'Bandas transportadoras',
         imagen: 'bandas',
         descripcion: 'sistemas de transporte esenciales en numerosas industrias, ofreciendo eficiencia, versatilidad y confiabilidad en la manipulación de materiales a lo largo de distancias variables',
-        pagina: 'correas'
+        pagina: 'bandas-transportadoras'
     },
     {
         id: 8,
