@@ -73,7 +73,8 @@
             <MDBDropdownItem router to="acoples">Acoples industriales</MDBDropdownItem>
             <MDBDropdownItem router to="chumaceras">Chumaceras</MDBDropdownItem>
             <MDBDropdownItem router to="poleas">Poleas</MDBDropdownItem>
-            <MDBDropdownItem href="#">Motorreductores</MDBDropdownItem>
+            <MDBDropdownItem router to="motorreductores">Motorreductores</MDBDropdownItem>
+            <MDBDropdownItem router to="motorreductores">Retenedores</MDBDropdownItem>
             <MDBDropdownItem href="#">Bandas transportadoras</MDBDropdownItem>
             <MDBDropdownItem href="#">Soluciones logísticas</MDBDropdownItem>
             <MDBDropdownItem href="#">Transmisión de potencia</MDBDropdownItem>

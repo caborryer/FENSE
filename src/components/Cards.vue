@@ -1,6 +1,6 @@
 <script setup>
     defineProps({
-        correa: {
+        data: {
             type: Object
         }
     })
@@ -12,14 +12,14 @@
         md="4"
     >
         <v-card>
-            <v-img :src="'/img/' + correa.imagen + '.png'"  height="250" cover  />
+            <v-img :src="'/img/' + data.imagen + '.png'"  height="250" cover  />
 
             <v-card-title>
-                {{ correa.nombre }}
+                {{ data.nombre }}
             </v-card-title>
 
             <v-card-text class="text-truncate" >
-                {{ correa.descripcion }}
+                {{ data.descripcion }}
             </v-card-text>
         </v-card>
     </v-col>

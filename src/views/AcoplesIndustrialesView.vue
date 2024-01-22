@@ -1,8 +1,8 @@
 <script setup>
-  import Acoples from '../components/Acoples.vue'
+  import Cards from '../components/Cards.vue'
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
-  import { acoples } from '../data/acoples'
+  import { datas } from '../data/acoples'
   import SlideProductoAcoples from '../components/SlideProductoAcoples.vue'
   import Marcas from '../components/Marcas.vue'
 
@@ -18,10 +18,10 @@
         <div class="row mt-5">
         <v-card flat class="py-10">
             <v-row>
-            <Acoples
-                v-for="acople in acoples"
-                :key="acople.id"
-                :acople="acople"
+            <Cards
+                v-for="data in datas"
+                :key="data.id"
+                :data="data"
             />
         </v-row>
         </v-card>

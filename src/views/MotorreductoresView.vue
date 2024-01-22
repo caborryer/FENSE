@@ -2,8 +2,8 @@
   import Cards from '../components/Cards.vue'
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
-  import { datas } from '../data/correas'
-  import SlideProducto from '../components/SlideProducto.vue'
+  import { datas } from '../data/motorreductores'
+  import SlideProductoMotorreductores from '../components/SlideProductoMotorreductores.vue'
   import Marcas from '../components/Marcas.vue'
 
  
@@ -13,7 +13,7 @@
 
 <template>
   <Header/>
-   <SlideProducto/>
+   <SlideProductoMotorreductores/>
     <main class="container-xl mt-5">
         <div class="row mt-5">
         <v-card flat class="py-10">

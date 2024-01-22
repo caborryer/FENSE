@@ -1,4 +1,4 @@
-export const chumaceras = [
+export const datas = [
     {
         id: 1,
         nombre: 'Chumacera Inox',

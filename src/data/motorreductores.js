@@ -2,7 +2,7 @@ export const datas = [
     {
         id: 1,
         nombre: 'Correas Sección Estrecha SP',
-        imagen: 'correas',
+        imagen: 'brida',
     },
     {
         id: 2,

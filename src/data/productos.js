@@ -39,7 +39,7 @@ export const productos = [
         nombre: 'Motorreductores',
         imagen: 'motorreductor',
         descripcion: 'Auditoria y análisis del estado actual de funcionamiento de sus equipos, homologación y repotenciar máquinas, suministro de repuestos para todas las marcas.',
-        pagina: 'correas'
+        pagina: 'motorreductores'
     },
     {
         id: 7,

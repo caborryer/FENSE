@@ -1,4 +1,4 @@
-export const poleas = [
+export const datas = [
     {
         id: 1,
         nombre: 'Poleas Clásicas',

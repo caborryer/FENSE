@@ -1,8 +1,8 @@
 <script setup>
-  import Poleas from '../components/Poleas.vue'
+  import Cards from '../components/Cards.vue'
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
-  import { poleas } from '../data/poleas'
+  import { datas } from '../data/poleas'
   import SlideProductoPolea from '../components/SlideProductoPolea.vue'
   import Marcas from '../components/Marcas.vue'
 
@@ -18,10 +18,10 @@
         <div class="row mt-5">
         <v-card flat class="py-10">
             <v-row>
-            <Poleas
-                v-for="polea in poleas"
-                :key="polea.id"
-                :polea="polea"
+            <Cards
+                v-for="data in datas"
+                :key="data.id"
+                :data="data"
             />
         </v-row>
         </v-card>

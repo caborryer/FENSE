@@ -6,6 +6,7 @@ import CorreasView from '../views/CorreasView.vue'
 import PoleasView from '../views/PoleasView.vue'
 import AcoplesIndustrialesView from '../views/AcoplesIndustrialesView.vue'
 import ChumacerasView from '../views/ChumacerasView.vue'
+import MotorreductoresView from '../views/MotorreductoresView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/chumaceras',
       name: 'chumaceras',
       component: ChumacerasView
+    },
+    {
+      path: '/motorreductores',
+      name: 'motorreductores',
+      component: MotorreductoresView
     }
   ]
 })
