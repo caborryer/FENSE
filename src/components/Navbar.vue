@@ -61,7 +61,7 @@
             LA EMPRESA
         </MDBNavbarItem>
         <!-- Navbar dropdown -->
-        <MDBDropdown class="nav-item" v-model="dropdown7" active>
+        <MDBDropdown class="nav-item" v-model="dropdown7" active style="color:white">
           <MDBDropdownToggle
             tag="a"
             class="nav-link"
@@ -72,7 +72,7 @@
             <MDBDropdownItem router to="correas">Correas</MDBDropdownItem>
             <MDBDropdownItem href="#">Acoples industriales</MDBDropdownItem>
             <MDBDropdownItem href="#">Chumaceras</MDBDropdownItem>
-            <MDBDropdownItem href="#">Poleas</MDBDropdownItem>
+            <MDBDropdownItem router to="poleas">Poleas</MDBDropdownItem>
             <MDBDropdownItem href="#">Motorreductores</MDBDropdownItem>
             <MDBDropdownItem href="#">Bandas transportadoras</MDBDropdownItem>
             <MDBDropdownItem href="#">Soluciones logísticas</MDBDropdownItem>

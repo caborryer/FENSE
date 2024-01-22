@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CompanyView from '../views/CompanyView.vue'
 import ServiciosView from '../views/ServiciosView.vue'
 import CorreasView from '../views/CorreasView.vue'
+import PoleasView from '../views/PoleasView.vue'
 // import AdminLayout from '../views/admin/AdminLayout.vue'
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/correas',
       name: 'correas',
       component: CorreasView
+    },
+    {
+      path: '/poleas',
+      name: 'poleas',
+      component: PoleasView
     }
     // {
     //   path: '/admin',

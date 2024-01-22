@@ -25,7 +25,7 @@ export const productos = [
         nombre: 'Poleas',
         imagen: 'poleas',
         descripcion: 'Son elementos esenciales en sistemas de transmisión de potencia, facilitando la transferencia eficiente de movimiento y fuerza entre ejes no alineados.',
-        pagina: 'correas'
+        pagina: 'poleas'
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ export const productos = [
         nombre: 'Soluciones logísticas',
         imagen: 'soluciones',
         descripcion: 'Elaboración de propuestas, optimización de nuevas tecnologías, implementación de nuevas tecnologías, ejecución de proyectos a todo costo, elaboración de planos, homologar y repotenciar equipos.',
-        pagina: 'correas'
+        pagina: 'servicios'
     },
     {
         id: 9,
