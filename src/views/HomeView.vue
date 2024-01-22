@@ -8,7 +8,6 @@
   import Carousel from '../components/Carousel.vue'
   import { productos } from '../data/productos'
 
-  console.log(productos)
 
 
  

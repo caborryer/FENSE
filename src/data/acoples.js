@@ -2,41 +2,66 @@ export const acoples = [
     {
         id: 1,
         nombre: 'Engranajes',
-        imagen: 'correas',
+        imagen: 'engranaje',
     },
     {
         id: 2,
         nombre: 'Láminas',
-        imagen: 'correclasica',
+        imagen: 'laminas',
     },
     {
         id: 3,
         nombre: 'Tipo Brida',
-        imagen: 'correadentada',
+        imagen: 'brida',
     },
     {
         id: 4,
         nombre: 'Rejilla',
-        imagen: 'correasAcanaladas',
+        imagen: 'rejilla',
     },
     {
         id: 5,
         nombre: 'Araña',
-        imagen: 'correasenV',
+        imagen: 'araña',
     },
     {
         id: 6,
         nombre: 'Flexibles',
-        imagen: 'correaestrechasp',
+        imagen: 'flexibles',
     },
     {
-        id: 5,
-        nombre: 'Araña',
-        imagen: 'correasenV',
+        id: 7,
+        nombre: 'Engranajes con Elemento Plástico',
+        imagen: 'plastico',
     },
     {
-        id: 6,
-        nombre: 'Flexibles',
-        imagen: 'correaestrechasp',
+        id: 8,
+        nombre: 'Precisión',
+        imagen: 'precision',
+    },
+    {
+        id: 9,
+        nombre: 'Elemento Elástico',
+        imagen: 'elastico',
+    },
+    {
+        id: 10,
+        nombre: 'Pines Flexibles',
+        imagen: 'flexibles',
+    },
+    {
+        id: 11,
+        nombre: 'Casquillos o Bujes de Fijación',
+        imagen: 'casquilos',
+    },
+    {
+        id: 12,
+        nombre: 'Piñones y Cadenas',
+        imagen: 'Piñones',
+    },
+    {
+        id: 13,
+        nombre: 'Cadenas Modulares',
+        imagen: 'modulares',
     }
 ]

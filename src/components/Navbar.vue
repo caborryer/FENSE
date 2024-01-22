@@ -70,7 +70,7 @@
           >
           <MDBDropdownMenu>
             <MDBDropdownItem router to="correas">Correas</MDBDropdownItem>
-            <MDBDropdownItem href="#">Acoples industriales</MDBDropdownItem>
+            <MDBDropdownItem router to="acoples">Acoples industriales</MDBDropdownItem>
             <MDBDropdownItem href="#">Chumaceras</MDBDropdownItem>
             <MDBDropdownItem router to="poleas">Poleas</MDBDropdownItem>
             <MDBDropdownItem href="#">Motorreductores</MDBDropdownItem>

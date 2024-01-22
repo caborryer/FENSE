@@ -11,7 +11,7 @@ export const productos = [
         nombre: 'Acoples industriales',
         imagen: 'acoples',
         descripcion: 'Acompañamiento profesional y especializado para la selección u homologación de acoples teniendo en cuenta torque, velocidad, ciclos de trabajo, precisión entre otros.',
-        pagina: 'correas'
+        pagina: 'acoples'
     },
     {
         id: 3,

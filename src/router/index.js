@@ -4,6 +4,7 @@ import CompanyView from '../views/CompanyView.vue'
 import ServiciosView from '../views/ServiciosView.vue'
 import CorreasView from '../views/CorreasView.vue'
 import PoleasView from '../views/PoleasView.vue'
+import AcoplesIndustrialesView from '../views/AcoplesIndustrialesView.vue'
 // import AdminLayout from '../views/admin/AdminLayout.vue'
 
 const router = createRouter({
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/poleas',
       name: 'poleas',
       component: PoleasView
+    },
+    {
+      path: '/acoples',
+      name: 'acoples',
+      component: AcoplesIndustrialesView
     }
     // {
     //   path: '/admin',
