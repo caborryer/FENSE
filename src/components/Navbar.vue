@@ -76,8 +76,8 @@
             <MDBDropdownItem router to="retenedores">Retenedores</MDBDropdownItem>
             <MDBDropdownItem router to="motorreductores">Motorreductores</MDBDropdownItem>
             <MDBDropdownItem router to="bandas-transportadoras">Bandas transportadoras</MDBDropdownItem>
-            <MDBDropdownItem href="#">Soluciones logísticas</MDBDropdownItem>
-            <MDBDropdownItem href="#">Transmisión de potencia</MDBDropdownItem>
+            <MDBDropdownItem router to="soluciones-logisticas">Soluciones logísticas</MDBDropdownItem>
+            <MDBDropdownItem router to="manejo-fluidos">Manejo de Fluidos</MDBDropdownItem>
           </MDBDropdownMenu>
         </MDBDropdown>
         <MDBNavbarItem router to="servicios" active>

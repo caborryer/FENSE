@@ -53,13 +53,13 @@ export const productos = [
         nombre: 'Soluciones logísticas',
         imagen: 'soluciones',
         descripcion: 'Elaboración de propuestas, optimización de nuevas tecnologías, implementación de nuevas tecnologías, ejecución de proyectos a todo costo, elaboración de planos, homologar y repotenciar equipos.',
-        pagina: 'servicios'
+        pagina: 'soluciones-logisticas'
     },
     {
         id: 9,
-        nombre: 'Transmisión de potencia',
+        nombre: 'Manejo de Fluidos',
         imagen: 'transmision',
         descripcion: 'Suministro, fabricación e importación de componentes para la transmisión de potencia. Asesoría personalizada por nuestros asesores. Levantamiento de información en sitio.',
-        pagina: 'correas'
+        pagina: 'manejo-fluidos'
     }
 ]

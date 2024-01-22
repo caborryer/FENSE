@@ -20,7 +20,7 @@
 <div class="container-nos">
 <div class="first-slide">
 <div class="nosotros-text">
-<p class="text">Retenedores</p>
+<p class="text">RETENEDORES</p>
 </div>
 <div class="breadcrump">
            <nav aria-label="breadcrumb" class="d-flex">

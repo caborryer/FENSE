@@ -9,6 +9,8 @@ import ChumacerasView from '../views/ChumacerasView.vue'
 import MotorreductoresView from '../views/MotorreductoresView.vue'
 import RetenedoresView from '../views/RetenedoresView.vue'
 import BandasTransportadorasView from '../views/BandasTransportadorasView.vue'
+import SolucionesLogisticasView from '../views/SolucionesLogisticasView.vue'
+import ManejoDeFluidosView from '../views/ManejoDeFluidosView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -57,12 +59,21 @@ const router = createRouter({
       path: '/retenedores',
       name: 'retenedores',
       component: RetenedoresView
-    }
-    ,
+    },
     {
       path: '/bandas-transportadoras',
       name: 'bandas-transportadoras',
       component: BandasTransportadorasView
+    },
+    {
+      path: '/soluciones-logisticas',
+      name: 'soluciones-logisticas',
+      component: SolucionesLogisticasView
+    },
+    {
+      path: '/manejo-fluidos',
+      name: 'manejo-fluidos',
+      component: ManejoDeFluidosView
     }
   ]
 })

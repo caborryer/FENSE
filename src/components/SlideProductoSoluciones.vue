@@ -20,7 +20,7 @@
 <div class="container-nos">
 <div class="first-slide">
 <div class="nosotros-text">
-<p class="text">MOTORREDUCTORES</p>
+<p>SOLUCIONES LOGÍSTICAS</p>
 </div>
 <div class="breadcrump">
            <nav aria-label="breadcrumb" class="d-flex">
@@ -29,7 +29,7 @@
           <a class="text-reset" href="">Home</a>
         </MDBBreadcrumbItem>
         <MDBBreadcrumbItem router to="correas" active>
-          <a class="text-reset" href=""><u>Motorreductores</u></a>
+          <a class="text-reset" href=""><u>Soluciones Logísticas</u></a>
         </MDBBreadcrumbItem>
       </MDBBreadcrumb>
     </nav>
@@ -51,12 +51,6 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-}
-
-.text{
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .nosotros-text{

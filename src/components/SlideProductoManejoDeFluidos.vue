@@ -20,7 +20,7 @@
 <div class="container-nos">
 <div class="first-slide">
 <div class="nosotros-text">
-<p class="text">MOTORREDUCTORES</p>
+<p class="text">MANEJO DE FLUIDOS</p>
 </div>
 <div class="breadcrump">
            <nav aria-label="breadcrumb" class="d-flex">
@@ -29,7 +29,7 @@
           <a class="text-reset" href="">Home</a>
         </MDBBreadcrumbItem>
         <MDBBreadcrumbItem router to="correas" active>
-          <a class="text-reset" href=""><u>Motorreductores</u></a>
+          <a class="text-reset" href=""><u>Manejo de fluidos</u></a>
         </MDBBreadcrumbItem>
       </MDBBreadcrumb>
     </nav>
