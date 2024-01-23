@@ -1,32 +1,37 @@
 export const datas = [
     {
         id: 1,
-        nombre: 'Correas Sección Estrecha SP',
-        imagen: 'correas',
+        nombre: 'Bombas de Engranajes Helicoidales',
+        imagen: 'helicoidales',
     },
     {
         id: 2,
-        nombre: 'Correas Clásicas',
-        imagen: 'correclasica',
+        nombre: 'Bombas Neumáticas (Opcional Plásticas)',
+        imagen: 'neumaticas',
     },
     {
         id: 3,
-        nombre: 'Correas Clásicas Dentadas',
-        imagen: 'correadentada',
+        nombre: 'Bombas Centrífugas para Altos Caudales',
+        imagen: 'centrifugas',
     },
     {
         id: 4,
-        nombre: 'Correas Acanaladas',
-        imagen: 'correasAcanaladas',
+        nombre: 'Bombas de Cavidades Progresivas',
+        imagen: 'progresivas',
     },
     {
         id: 5,
-        nombre: 'Correas Perfil V',
-        imagen: 'correasenV',
+        nombre: 'Bombas Dosificadoras y Peristálticas',
+        imagen: 'dosificadoras',
     },
     {
         id: 6,
-        nombre: 'Correas Sección Estrecha SP',
-        imagen: 'correaestrechasp',
+        nombre: 'Válculas y Actuadores',
+        imagen: 'actuadores',
+    },
+    {
+        id: 7,
+        nombre: 'Instrumentación',
+        imagen: 'instrumentacion',
     }
 ]
